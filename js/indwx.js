@@ -10,7 +10,7 @@ if (hour < 12) {
     } else if (hour < 17) {
     // Afternoon
     document.getElementById("greeting").innerText = "Good Afternoon";
-    document.getElementById("image").src = "img/afternoon.jpg";
+    document.getElementById("image").src = "img/leaf.png";
     }
     else {
     // Night
