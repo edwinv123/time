@@ -18,3 +18,18 @@ body {
     align-content: end;
   }
 
+  #greeting {
+    z-index: 100;
+    font-size: 5vw;
+    font-family: "Playwrite GB S", cursive;
+    font-optical-sizing: auto;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 2px #fcdf91;
+    filter: drop-shadow(2px 2px #333);
+    justify-self: center;
+    align-self: end;
+  }
+
+  
+
