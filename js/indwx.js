@@ -5,7 +5,7 @@ let hour = d.getHours();
 //hour=19
 // console.log(hour);
 let greetingText = document.getElementById("greeting-text");
-hour=19
+
 if (hour < 12) {
     // if hour is less than 12pm
     greetingText.textContent = "Good Morning!";
