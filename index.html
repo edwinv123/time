@@ -16,16 +16,33 @@
     <link rel="stylesheet" href="css/styles.css">
   </head>
   <body>
-    <h1 id="greeting">Good Morning</h1>
-    <img id="image" src="img/images.jpg" alt="chamoy">
-    <script src="js/indwx.js"></script>
-
+    <div class="greeting">
+      <p id="greeting-text">GOOD MORNING</p>
+      </div>
+    <div class="morning">
+      <div class="sun"></div>
+      <img id="cloud1" class="cloud" src="img/cloud.png" alt="" />
+      <img id="cloud2" class="cloud" src="img/cloud.png" alt="" />
+    </div>
     <div class="afternoon">
       <div class="noon-sun"></div>
-      <img id="cloud1" class="cloud" src="img/leaf.png" alt="" />
-      <img id="cloud2" class="cloud" src="img/leaf.png" alt="" />
-      <img id="cloud3" class="cloud" src="img/leaf.png" alt="" />
-      <img id="cloud4" class="cloud" src="img/leaf.png" alt="" />
+      <img id="cloud1" class="cloud" src="img/fall.png" alt="" />
+      <img id="cloud2" class="cloud" src="img/fall.png" alt="" />
+      <img id="cloud3" class="cloud" src="img/fall.png" alt="" />
+      <img id="cloud4" class="cloud" src="img/fall.png" alt="" />
     </div>
+    <div class="night">
+      <div class="stars"></div>
+      <div class="twinkling"></div>
+      <div class="moon"></div>
+      <img id="cloud1" class="cloud night-opacity" src="img/star.png" alt="" />
+      <img id="cloud2" class="cloud night-opacity" src="img/star.png" alt="" />
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/indwx.js"></script>
   </body>
 </html>
