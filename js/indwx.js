@@ -4,6 +4,12 @@ let hour = d.getHours();
 //hour=15
 //hour=19
 // console.log(hour);
+let morningBtn = document.getElementsByClassName('btn')[0];
+let afternoonBtn = document.getElementsByClassName('btn')[1];
+let nightBtn = document.getElementsByClassName('btn')[2];
+
+
+
 let greetingText = document.getElementById("greeting-text");
 
 if (hour < 12) {
